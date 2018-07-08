@@ -37,11 +37,11 @@
 		console.log('Gun reference exposed as %cwindow.data', 'color: red');
 
 		// Writes a value to the key 'data'.
-		data.put({ message: 'Hello world!' });
-
+		// data.put({ message: 'Hello world!' });
 		// Listen for real-time change events.
-		data.path('message').on(function (message) {
+		data.get('message').once().map(function (message, key) {
 			console.log('Message:', message);
+			console.log('Key:', key);
 		});
 
 	}())
