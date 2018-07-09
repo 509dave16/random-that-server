@@ -23,9 +23,6 @@
   "homepage": "https://github.com/gundb/gun-starter-app#readme",
   "dependencies": {
     "encoding-down": "^5.0.4",
-    "gun": "^0.9.9992",
-    "gun-level": "^6.0.4",
-    "leveldown": "^4.0.1",
-    "levelup": "^3.1.0"
+    "gun": "^0.9.9992"
   }
 }
