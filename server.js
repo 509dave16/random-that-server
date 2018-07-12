@@ -1,7 +1,7 @@
 'use strict';
 
 var http = require('http');
-var port = process.env.PORT || 8080;
+var port = 8082;
 var fs = require('fs');
 var Gun = require('gun');
 var server = http.Server();
@@ -11,7 +11,6 @@ server.on('request', function (req, res) {
 });
 
 var gun = Gun({
-	localStorage: false,
 	web: server
 });
 

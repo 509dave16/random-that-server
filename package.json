@@ -23,6 +23,6 @@
   "homepage": "https://github.com/gundb/gun-starter-app#readme",
   "dependencies": {
     "encoding-down": "^5.0.4",
-    "gun": "^0.9.9992"
+    "gun": "^0.9.9994"
   }
 }
